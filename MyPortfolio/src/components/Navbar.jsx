@@ -1,13 +1,13 @@
-
 import React from "react";
 import { TfiLayoutLineSolid } from "react-icons/tfi";
 import { IoLogoGithub } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
+import { assets } from "../assets/assets";
 
 const Navbar = () => {
   return (
-    <div className= "mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
+    <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
       <a
         href="#content"
         className="absolute left-0 top-0 block -translate-x-full rounded bg-gradient-to-br from-teal-400 via-blue-500 to-purple-600 px-4 py-3 text-sm font-bold uppercase tracking-widest text-white focus-visible:translate-x-0"
@@ -16,8 +16,18 @@ const Navbar = () => {
       </a>
       <div className="lg:flex lg:justify-between lg:gap-4">
         {/* Navbar left section */}
-        <header className="lg:sticky lg:top-0 lg:flex lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
-          <div>
+        <header className= "lg:sticky lg:top-0 lg:flex lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
+          <div className= "flex items-start space-x-6">
+            {/* Profile image */}
+            <div className= "w-60 h-60 rounded-2xl overflow-hidden">
+              <img
+                src={assets.Image}
+                alt="Profile"
+                className= "w-full h-full object-cover"
+              />
+            </div>
+
+            {/* Header content */}
             <div>
               <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
                 <a href="/">ADEYEMI IBRAHIM</a>
@@ -25,7 +35,7 @@ const Navbar = () => {
               <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
                 Front End Engineer
               </h2>
-              <p className= "mt-4 max-w-xs leading-normal">
+              <p className="mt-4 max-w-xs leading-normal">
                 I build accessible, pixel-perfect digital experiences for the
                 web.
               </p>
@@ -33,14 +43,14 @@ const Navbar = () => {
                 className="nav hidden lg:block"
                 aria-label="In-page jump links"
               >
-                <ul className= "mt-16 w-max">
+                <ul className="mt-16 w-max">
                   <li>
                     <a
-                      className= "group flex items-center py-3 active"
+                      className="group flex items-center py-3 active"
                       href="#about"
                     >
                       <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                      <span className= "nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
+                      <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
                         About
                       </span>
                     </a>
@@ -70,32 +80,17 @@ const Navbar = () => {
                 </ul>
               </nav>
             </div>
+          </div>
 
-            {/* <div className="hidden md:block">
-            <div className="flex space-x-2 mb-5 hover:scale-x-150 hover:text-white transform origin-left transition-all duration-300">
-              <TfiLayoutLineSolid className="text-2xl" />
-              <p className="text-base font-bold">ABOUT</p>
+          <div className="flex space-x-4 mt-4 md:mt-14">
+            <div>
+              <IoLogoGithub className="w-7 h-7" />
             </div>
-            <div className="flex space-x-2 mb-5 hover:scale-x-150 hover:text-white transform origin-left transition-all duration-300">
-              <TfiLayoutLineSolid className=" text-2xl" />
-              <p className="text-base font-bold ">EXPERIENCE</p>
+            <div>
+              <FaLinkedin className="w-7 h-7" />
             </div>
-            <div className="flex space-x-2 mb-5 hover:scale-x-150 hover:text-white transform origin-left transition-all duration-300">
-              <TfiLayoutLineSolid className="text-2xl" />
-              <p className="text-base font-bold">PROJECTS</p>
-            </div>
-          </div> */}
-
-            <div className= "flex space-x-4 mt-4 md:mt-14">
-              <div>
-                <IoLogoGithub className="w-7 h-7" />
-              </div>
-              <div>
-                <FaLinkedin className="w-7 h-7" />
-              </div>
-              <div>
-                <FaInstagram className="w-7 h-7" />
-              </div>
+            <div>
+              <FaInstagram className="w-7 h-7" />
             </div>
           </div>
         </header>
