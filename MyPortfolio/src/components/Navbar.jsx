@@ -36,7 +36,8 @@ const Navbar = () => {
                 Front End Engineer
               </h2>
               <p className="mt-4 max-w-xs leading-normal">
-                I create accessible, visually flawless digital experiences for the web.
+                I create accessible, visually flawless digital experiences for
+                the web.
               </p>
               <nav
                 className="nav hidden lg:block"
@@ -91,9 +92,9 @@ const Navbar = () => {
                 aria-label="GitHub (opens in a new tab)"
                 title="GitHub"
               >
-                <span className= "sr-only">GitHub</span>
+                <span className="sr-only">GitHub</span>
                 <div>
-                  <IoLogoGithub className= "w-7 h-7" />
+                  <IoLogoGithub className="w-7 h-7" />
                 </div>
                 {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +118,7 @@ const Navbar = () => {
               >
                 <span className="sr-only">LinkedIn</span>
                 <div>
-                 <FaLinkedin className="w-7 h-7" />
+                  <FaLinkedin className="w-7 h-7" />
                 </div>
                 {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +131,7 @@ const Navbar = () => {
                 </svg> */}
               </a>
             </li>
-            
+
             {/* <li className="mr-5 shrink-0 text-xs">
               <a
                 className="block hover:text-slate-200"
@@ -241,10 +242,22 @@ const Navbar = () => {
             </div>
             <div>
               <p className="mb-4">
-              I’m a developer who is passionate about creating accessible, visually precise user interfaces that combine thoughtful design with strong engineering. My best work happens where design and development converge, crafting experiences that are not only aesthetically pleasing but also carefully optimized for performance and ease of use.
+                I’m a developer who is passionate about creating accessible,
+                visually precise user interfaces that combine thoughtful design
+                with strong engineering. My best work happens where design and
+                development converge, crafting experiences that are not only
+                aesthetically pleasing but also carefully optimized for
+                performance and ease of use.
               </p>
               <p className="mb-4">
-                Currently, I am actively enhancing my skills to become a highly proficient and satisfied full-stack developer. Over time, I have successfully completed several full-stack projects, which have allowed me to gain hands-on experience and deepen my understanding of both front-end and back-end development. Below, you can explore some of the projects I have worked on and the technologies I’ve worked with, showcasing my ability to design, develop, and deploy end-to-end solutions.
+                Currently, I am actively enhancing my skills to become a highly
+                proficient and satisfied full-stack developer. Over time, I have
+                successfully completed several full-stack projects, which have
+                allowed me to gain hands-on experience and deepen my
+                understanding of both front-end and back-end development. Below,
+                you can explore some of the projects I have worked on and the
+                technologies I’ve worked with, showcasing my ability to design,
+                develop, and deploy end-to-end solutions.
               </p>
               {/* <p className="mb-4">
                 In the past, I've had the opportunity to develop software across
@@ -302,11 +315,11 @@ const Navbar = () => {
                 with the Spotify API.
               </p> */}
               <p>
-                In my spare time, I usually play soccer, Table Tennis, Traveling and exploring, hanging out
-                with my friends and family, or in the studio
-                {" "}
-                <span className= "group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:text-slate-200">
-                  <span className= "sr-only">Recording music</span>
+                In my spare time, I usually play soccer, Table Tennis, Traveling
+                and exploring, hanging out with my friends and family, or in the
+                studio{" "}
+                <span className="group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:text-slate-200">
+                  <span className="sr-only">Recording music</span>
                   <span
                     className="group-hover/korok:text-red-400 transition duration-75 group-hover/korok:-translate-y-px delay-[50ms]"
                     aria-hidden="true"
@@ -400,6 +413,36 @@ const Navbar = () => {
                 </span>
                 .
               </p>
+
+              <div className="mt-12">
+                <a
+                  className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 font-semibold text-slate-200 group/link text-base"
+                  href="https://eu.docs.wps.com/l/sIPTDw8OSAo2PnL4G?v=v2"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  aria-label="View Full Résumé (opens in a new tab)"
+                >
+                  <span>
+                    View Full&nbsp;
+                    <span className="inline-block">
+                      Résumé
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                        aria-hidden="true"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                          clipRule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                  </span>
+                </a>
+              </div>
             </div>
           </section>
 
@@ -1112,7 +1155,13 @@ const Navbar = () => {
                         </a>
                       </h3>
                       <p className="mt-2 text-sm leading-normal">
-                        InvoiceApp is a comprehensive full-stack web development project designed to streamline the process of creating, managing, and paying invoices. The application allows users to generate customizable invoice templates tailored to their business needs. Additionally, it integrates Stripe as the payment gateway, enabling secure and seamless transactions for invoice payments.
+                        InvoiceApp is a comprehensive full-stack web development
+                        project designed to streamline the process of creating,
+                        managing, and paying invoices. The application allows
+                        users to generate customizable invoice templates
+                        tailored to their business needs. Additionally, it
+                        integrates Stripe as the payment gateway, enabling
+                        secure and seamless transactions for invoice payments.
                       </p>
                       <a
                         className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
@@ -1191,25 +1240,25 @@ const Navbar = () => {
                 <li className="mb-12">
                   <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                     <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                    <div className= "z-10 sm:order-2 sm:col-span-6">
+                    <div className="z-10 sm:order-2 sm:col-span-6">
                       <h3>
                         <a
-                          className= "inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                          className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
                           href="https://myneeds.vercel.app/"
                           target="_blank"
                           rel="noreferrer noopener"
                           aria-label="MyNeedsApp (opens in a new tab)"
                         >
-                          <span className= "absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                          <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                           <span>
-                           MyNeeds{" "}
+                            MyNeeds{" "}
                             <span className="inline-block">
                               App
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 20 20"
                                 fill="currentColor"
-                                className= "inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
                                 aria-hidden="true"
                               >
                                 <path
@@ -1223,7 +1272,15 @@ const Navbar = () => {
                         </a>
                       </h3>
                       <p className="mt-2 text-sm leading-normal">
-                        MyNeeds is a comprehensive Fullstack Ecommerce platform designed to provide an all-in-one shopping experience. Built with modern web technologies, it allows users to seamlessly browse, purchase, and manage their orders in a user-friendly environment. The project incorporates both frontend and backend development, ensuring a smooth and efficient interface while supporting secure transactions, real-time inventory management, and personalized recommendations
+                        MyNeeds is a comprehensive Fullstack Ecommerce platform
+                        designed to provide an all-in-one shopping experience.
+                        Built with modern web technologies, it allows users to
+                        seamlessly browse, purchase, and manage their orders in
+                        a user-friendly environment. The project incorporates
+                        both frontend and backend development, ensuring a smooth
+                        and efficient interface while supporting secure
+                        transactions, real-time inventory management, and
+                        personalized recommendations
                       </p>
                       <a
                         className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
@@ -1349,7 +1406,13 @@ const Navbar = () => {
                         </a>
                       </h3>
                       <p className="mt-2 text-sm leading-normal">
-                         Myneed Admin is a web development project designed to provide comprehensive oversight and control over products, user orders, and deliveries on the Myneeds website. It serves as a centralized platform for managing all aspects of the e-commerce operations, ensuring seamless functionality and efficient administration.
+                        Myneed Admin is a web development project designed to
+                        provide comprehensive oversight and control over
+                        products, user orders, and deliveries on the Myneeds
+                        website. It serves as a centralized platform for
+                        managing all aspects of the e-commerce operations,
+                        ensuring seamless functionality and efficient
+                        administration.
                       </p>
                       <a
                         className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
@@ -1453,7 +1516,18 @@ const Navbar = () => {
                         </a>
                       </h3>
                       <p className="mt-2 text-sm leading-normal">
-                        FoodApp is a single-page web application designed to help users discover recipes based on the type of food they are searching for. Users can explore detailed information about each dish, including its ingredients, preparation method, whether it is vegetarian or not, and how it is traditionally served. Additionally, the app provides useful features like filtering options based on dietary preferences, step-by-step cooking instructions, and nutritional information to enhance the cooking experience. It’s a comprehensive tool for food lovers looking to expand their culinary knowledge and try new recipes.
+                        FoodApp is a single-page web application designed to
+                        help users discover recipes based on the type of food
+                        they are searching for. Users can explore detailed
+                        information about each dish, including its ingredients,
+                        preparation method, whether it is vegetarian or not, and
+                        how it is traditionally served. Additionally, the app
+                        provides useful features like filtering options based on
+                        dietary preferences, step-by-step cooking instructions,
+                        and nutritional information to enhance the cooking
+                        experience. It’s a comprehensive tool for food lovers
+                        looking to expand their culinary knowledge and try new
+                        recipes.
                       </p>
                       <a
                         className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
