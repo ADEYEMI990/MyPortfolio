@@ -33,7 +33,7 @@ const Navbar = () => {
                 <a href="/">ADEYEMI IBRAHIM</a>
               </h1>
               <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-                SoftWare Engineer
+                Backend SoftWare Engineer
               </h2>
               <p className="mt-4 max-w-xs leading-normal">
                 I create accessible, visually flawless digital experiences for
