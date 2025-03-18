@@ -316,7 +316,7 @@ const Navbar = () => {
               </p> */}
               <p>
                 In my spare time, I usually play soccer, Table Tennis, Traveling
-                and exploring, hanging out with my friends and family, or in the
+                and exploring, Hanging out with my friends and family, or in the
                 studio{" "}
                 <span className="group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:text-slate-200">
                   <span className="sr-only">Recording music</span>
