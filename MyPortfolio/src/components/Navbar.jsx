@@ -33,11 +33,11 @@ const Navbar = () => {
                 <a href="/">ADEYEMI IBRAHIM</a>
               </h1>
               <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-                Backend SoftWare Engineer
+                Fullstack & Mobile App Developer
               </h2>
               <p className="mt-4 max-w-xs leading-normal">
                 I create accessible, visually flawless digital experiences for
-                the web.
+                the web and Mobile.
               </p>
               <nav
                 className="nav hidden lg:block"
@@ -164,7 +164,7 @@ const Navbar = () => {
             <li className="mr-5 shrink-0 text-xs">
               <a
                 className="block hover:text-slate-200"
-                href="https://www.instagram.com/adeyemi__10/"
+                href="https://www.instagram.com/bright___y/"
                 target="_blank"
                 rel="noreferrer noopener"
                 aria-label="Instagram (opens in a new tab)"
@@ -250,14 +250,7 @@ const Navbar = () => {
                 performance and ease of use.
               </p>
               <p className="mb-4">
-                Currently, I am actively enhancing my skills to become a highly
-                proficient and satisfied full-stack developer. Over time, I have
-                successfully completed several full-stack projects, which have
-                allowed me to gain hands-on experience and deepen my
-                understanding of both front-end and back-end development. Below,
-                you can explore some of the projects I have worked on and the
-                technologies I’ve worked with, showcasing my ability to design,
-                develop, and deploy end-to-end solutions.
+                As a seasoned Fullstack & Mobile App Developer, I specialize in building robust, scalable, and user-friendly applications across web and mobile platforms. With a strong foundation in both frontend and backend technologies, I’ve led and contributed to a variety of projects—from e-commerce platforms to digital tools—delivering seamless end-to-end solutions that solve real-world problems. My experience spans responsive web interfaces, secure backend architectures, and cross-platform mobile apps, all developed with performance, accessibility, and user experience in mind. Below are some of the projects that highlight my technical versatility and product-focused approach.
               </p>
               {/* <p className="mb-4">
                 In the past, I've had the opportunity to develop software across
@@ -417,7 +410,7 @@ const Navbar = () => {
               <div className="mt-12">
                 <a
                   className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 font-semibold text-slate-200 group/link text-base"
-                  href="https://eu.docs.wps.com/l/sIPTDw8OSAo2PnL4G?v=v2"
+                  href="https://eu.docworkspace.com/d/sIKHDw8OSAuyc5MMG?sa=601.1037"
                   target="_blank"
                   rel="noreferrer noopener"
                   aria-label="View Full Résumé (opens in a new tab)"
@@ -447,7 +440,7 @@ const Navbar = () => {
           </section>
 
           {/* Experience Section */}
-          {/* <section
+           <section
             id="experience"
             className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
             aria-label="Work experience"
@@ -459,7 +452,7 @@ const Navbar = () => {
             </div>
             <div>
               <ol className="group/list">
-                <li className="mb-12">
+                {/* <li className="mb-12">
                   <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                     <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                     <header
@@ -536,7 +529,7 @@ const Navbar = () => {
                       </ul>
                     </div>
                   </div>
-                </li>
+                </li> */}
                 <li className="mb-12">
                   <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                     <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
@@ -544,23 +537,23 @@ const Navbar = () => {
                       className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
                       aria-label="2018 to 2024"
                     >
-                      2018 — 2024
+                      MARCH 2025 — JUNE 2025
                     </header>
                     <div className="z-10 sm:col-span-6">
                       <h3 className="font-medium leading-snug text-slate-200">
                         <div>
                           <a
                             className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                            href="https://upstatement.com"
+                            href="https://www.internpulse.com/"
                             target="_blank"
                             rel="noreferrer noopener"
                             aria-label="Lead Engineer at Upstatement (opens in a new tab)"
                           >
                             <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                             <span>
-                              Lead Engineer{" "}
+                              Lead Backend Engineer{" "}
                               <span className="inline-block">
-                                Upstatement
+                                InternPulse
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
                                   viewBox="0 0 20 20"
@@ -580,7 +573,7 @@ const Navbar = () => {
                         </div>
                         <div>
                           <div className="text-slate-500" aria-hidden="true">
-                            Senior Engineer
+                            Senior Backend Engineer
                           </div>
                         </div>
                         <div>
@@ -590,15 +583,8 @@ const Navbar = () => {
                         </div>
                       </h3>
                       <p className="mt-2 text-sm leading-normal">
-                        Build, style, and ship high-quality websites, design
-                        systems, mobile apps, and digital experiences for a
-                        diverse array of projects for clients including Harvard
-                        Business School, Everytown for Gun Safety, Pratt
-                        Institute, Koala Health, Vanderbilt University, The 19th
-                        News, and more. Provide leadership within engineering
-                        department through close collaboration, knowledge
-                        shares, and spearheading the development of internal
-                        tools.
+                        At InternPulse, I served as a Fullstack Developer, where I led the backend team in delivering scalable, secure, and user-focused digital solutions.
+                        One of my key contributions was leading backend development for POS PADI, a mobile and web platform designed to transform how POS agents operate across Nigeria and Africa. I was responsible for designing the core backend architecture, developing secure and efficient APIs, and ensuring seamless integration with the frontend for real-time performance and responsiveness.
                       </p>
                       <ul
                         className="mt-2 flex flex-wrap"
@@ -636,7 +622,7 @@ const Navbar = () => {
                         </li>
                         <li className="mr-1.5 mt-2">
                           <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            WordPress
+                            Express.js
                           </div>
                         </li>
                         <li className="mr-1.5 mt-2">
@@ -651,14 +637,24 @@ const Navbar = () => {
                         </li>
                         <li className="mr-1.5 mt-2">
                           <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            PHP
+                            WebSocket
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            MySQL
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Docker
                           </div>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </li>
-                <li className="mb-12">
+                {/* <li className="mb-12">
                   <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                     <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                     <header
@@ -1073,12 +1069,12 @@ const Navbar = () => {
                       </ul>
                     </div>
                   </div>
-                </li>
+                </li> */}
               </ol>
               <div className="mt-12">
                 <a
                   className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 font-semibold text-slate-200 group/link text-base"
-                  href="/resume.pdf"
+                  href="https://eu.docworkspace.com/d/sICvDw8OSArSY5MMG?sa=601.1037"
                   target="_blank"
                   rel="noreferrer noopener"
                   aria-label="View Full Résumé (opens in a new tab)"
@@ -1105,7 +1101,7 @@ const Navbar = () => {
                 </a>
               </div>
             </div>
-          </section> */}
+          </section> 
 
           {/* Project Section */}
           <section
@@ -1120,6 +1116,142 @@ const Navbar = () => {
             </div>
             <div>
               <ul className="group/list">
+                <li className="mb-12">
+                  <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                    <div className="z-10 sm:order-2 sm:col-span-6">
+                      <h3>
+                        <a
+                          className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                          href="https://pospadi.com.ng/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          aria-label="InvoiceApp (opens in a new tab)"
+                        >
+                          <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                          <span>
+                            POS {" "}
+                            <span className="inline-block">
+                              PADI
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                                className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                aria-hidden="true"
+                              >
+                                <path
+                                  fillRule="evenodd"
+                                  d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                  clipRule="evenodd"
+                                ></path>
+                              </svg>
+                            </span>
+                          </span>
+                        </a>
+                      </h3>
+                      <p className="mt-2 text-sm leading-normal">
+                        POS PADI is a mobile and web-based platform designed to revolutionize how POS agents operate across Nigeria and other African Countries. It is built to improve efficiency, security, and trust in the POS ecosystem.
+                      </p>
+                      <a
+                        className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+                        href="https://github.com/ADEYEMI990/pos-padi-express-backend"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        aria-label="Direct to Github (opens in a new tab)"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          className="mr-1 h-4 w-4"
+                          aria-hidden="true"
+                        >
+                          <path d="M10.75 2.75a.75.75 0 00-1.5 0v8.614L6.295 8.235a.75.75 0 10-1.09 1.03l4.25 4.5a.75.75 0 001.09 0l4.25-4.5a.75.75 0 00-1.09-1.03l-2.955 3.129V2.75z"></path>
+                          <path d="M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z"></path>
+                        </svg>
+                        <span>Check out</span>
+                      </a>
+                      <ul
+                        className="mt-2 flex flex-wrap"
+                        aria-label="Technologies used:"
+                      >
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            React
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            TypeScript
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Talwind CSS
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            MySQL
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Clerk
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            WebSocket
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Stripe
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Prisma
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Node.js
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Express.js
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            FireBase
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Docker
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <img
+                      alt="InvoiceApp HomePage"
+                      loading="lazy"
+                      width="200"
+                      height="48"
+                      decoding="async"
+                      data-nimg="1"
+                      className="aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                      // style="color:transparent"
+                      // srcSet="/_next/image?url=%2Fimages%2Fprojects%2Fhalcyon.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fprojects%2Fhalcyon.png&amp;w=640&amp;q=75 2x"
+                      src={assets.POS01}
+                    />
+                  </div>
+                </li>
                 <li className="mb-12">
                   <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                     <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
