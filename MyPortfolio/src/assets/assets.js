@@ -5,6 +5,7 @@ import FoodApp from './FoodApp.jpeg'
 import InvoiceApp from './InvoiceApp.jpeg'
 import Admin from './Admin.jpeg'
 import POS01 from './POS01.png'
+import POR from './POR.png'
 
 export const assets = {
   Image,
@@ -13,5 +14,6 @@ export const assets = {
   FoodApp,
   InvoiceApp,
   Admin,
-  POS01
+  POS01,
+  POR
 }
