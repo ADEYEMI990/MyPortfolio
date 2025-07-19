@@ -410,7 +410,7 @@ const Navbar = () => {
               <div className="mt-12">
                 <a
                   className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 font-semibold text-slate-200 group/link text-base"
-                  href="https://eu.docworkspace.com/d/sIKHDw8OSAuyc5MMG?sa=601.1037"
+                  href="https://eu.docworkspace.com/d/sIITDw8OSArOu78MG?sa=601.1037"
                   target="_blank"
                   rel="noreferrer noopener"
                   aria-label="View Full Résumé (opens in a new tab)"
@@ -1074,7 +1074,7 @@ const Navbar = () => {
               <div className="mt-12">
                 <a
                   className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 font-semibold text-slate-200 group/link text-base"
-                  href="https://eu.docworkspace.com/d/sICvDw8OSArSY5MMG?sa=601.1037"
+                  href="https://eu.docworkspace.com/d/sIITDw8OSArOu78MG?sa=601.1037"
                   target="_blank"
                   rel="noreferrer noopener"
                   aria-label="View Full Résumé (opens in a new tab)"
