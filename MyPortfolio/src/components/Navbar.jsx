@@ -1914,13 +1914,13 @@ const Navbar = () => {
               </a>
               , deployed with{" "}
               <a
-                href="https://vercel.com/"
+                href="https://www.digitalocean.com/"
                 className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
                 target="_blank"
                 rel="noreferrer noopener"
-                aria-label="Vercel (opens in a new tab)"
+                aria-label="DigitalOcean (opens in a new tab)"
               >
-                Vercel
+                DigitalOcean
               </a>
               . All text is set in the{" "}
               <a
