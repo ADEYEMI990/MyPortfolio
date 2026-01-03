@@ -250,7 +250,7 @@ const Navbar = () => {
                 performance and ease of use.
               </p>
               <p className="mb-4">
-                As a seasoned Fullstack & Mobile App Developer, I specialize in building robust, scalable, and user-friendly applications across web and mobile platforms. With a strong foundation in both frontend and backend technologies, I’ve led and contributed to a variety of projects—from e-commerce platforms to digital tools—delivering seamless end-to-end solutions that solve real-world problems. My experience spans responsive web interfaces, secure backend architectures, and cross-platform mobile apps, all developed with performance, accessibility, and user experience in mind. Below are some of the projects that highlight my technical versatility and product-focused approach.
+                As a seasoned Fullstack & Mobile App Developer, I specialize in building robust, scalable, and user-friendly applications across web and mobile platforms. With a strong foundation in both frontend and backend technologies, I’ve led and contributed to a variety of projects—from e-commerce platforms to digital tools and mobile apps to delivering seamless end-to-end solutions that solve real world problems. My experience spans responsive web interfaces, secure backend architectures, and cross-platform mobile apps, all developed with performance, accessibility, and user experience in mind. Below are some of the projects that highlight my technical versatility and product-focused approach.
               </p>
               {/* <p className="mb-4">
                 In the past, I've had the opportunity to develop software across
