@@ -250,7 +250,17 @@ const Navbar = () => {
                 performance and ease of use.
               </p>
               <p className="mb-4">
-                As a seasoned Fullstack & Mobile App Developer, I specialize in building robust, scalable, and user friendly applications across web and mobile platforms. With a strong foundation in both frontend and backend technologies, I’ve led and contributed to a variety of projects from e-commerce platforms to digital tools and mobile apps to delivering seamless end-to-end solutions that solve real world problems. My experience spans responsive web interfaces, secure backend architectures, and cross platform mobile apps, all developed with performance, accessibility, and user experience in mind. Below are some of the projects that highlight my technical versatility and product focused approach.
+                As a seasoned Fullstack & Mobile App Developer, I specialize in
+                building robust, scalable, and user friendly applications across
+                web and mobile platforms. With a strong foundation in both
+                frontend and backend technologies, I’ve led and contributed to a
+                variety of projects from e-commerce platforms to digital tools
+                and mobile apps to delivering seamless end-to-end solutions that
+                solve real world problems. My experience spans responsive web
+                interfaces, secure backend architectures, and cross platform
+                mobile apps, all developed with performance, accessibility, and
+                user experience in mind. Below are some of the projects that
+                highlight my technical versatility and product focused approach.
               </p>
               {/* <p className="mb-4">
                 In the past, I've had the opportunity to develop software across
@@ -440,7 +450,7 @@ const Navbar = () => {
           </section>
 
           {/* Experience Section */}
-           <section
+          <section
             id="experience"
             className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
             aria-label="Work experience"
@@ -473,7 +483,7 @@ const Navbar = () => {
                           >
                             <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                             <span>
-                              Senior Fullstack Engineer, {" "}
+                              Senior Fullstack Engineer,{" "}
                               <span className="inline-block">
                                 Lagos food Bank Initiative
                                 <svg
@@ -495,7 +505,18 @@ const Navbar = () => {
                         </div>
                       </h3>
                       <p className="mt-2 text-sm leading-normal">
-                        Built and maintained full-stack web platforms to support food distribution, volunteer coordination, and partner collaboration. Developed responsive frontend interfaces and secure backend services for beneficiary data, inventory tracking, and program reporting. Collaborated with operations teams to translate community needs into scalable, reliable solutions, including platforms for the Temporary Food Assistance Program (TEFAP) and tools supporting the Food Bank Network Nigeria. Strengthened digital infrastructure, improved operational visibility, and enabled data-driven decision-making across programs serving thousands of beneficiaries.
+                        Built and maintained full-stack web platforms to support
+                        food distribution, volunteer coordination, and partner
+                        collaboration. Developed responsive frontend interfaces
+                        and secure backend services for beneficiary data,
+                        inventory tracking, and program reporting. Collaborated
+                        with operations teams to translate community needs into
+                        scalable, reliable solutions, including platforms for
+                        the Temporary Food Assistance Program (TEFAP) and tools
+                        supporting the Food Bank Network Nigeria. Strengthened
+                        digital infrastructure, improved operational visibility,
+                        and enabled data-driven decision-making across programs
+                        serving thousands of beneficiaries.
                       </p>
                       <ul
                         className="mt-2 flex flex-wrap"
@@ -608,8 +629,16 @@ const Navbar = () => {
                         </div>
                       </h3>
                       <p className="mt-2 text-sm leading-normal">
-                        At InternPulse, I served as a Fullstack Developer, where I led the backend team in delivering scalable, secure, and user-focused digital solutions.
-                        One of my key contributions was leading backend development for POS PADI, a mobile and web platform designed to transform how POS agents operate across Nigeria and Africa. I was responsible for designing the core backend architecture, developing secure and efficient APIs, and ensuring seamless integration with the frontend for real-time performance and responsiveness.
+                        At InternPulse, I served as a Fullstack Developer, where
+                        I led the backend team in delivering scalable, secure,
+                        and user-focused digital solutions. One of my key
+                        contributions was leading backend development for POS
+                        PADI, a mobile and web platform designed to transform
+                        how POS agents operate across Nigeria and Africa. I was
+                        responsible for designing the core backend architecture,
+                        developing secure and efficient APIs, and ensuring
+                        seamless integration with the frontend for real-time
+                        performance and responsiveness.
                       </p>
                       <ul
                         className="mt-2 flex flex-wrap"
@@ -1136,7 +1165,7 @@ const Navbar = () => {
                 </a>
               </div>
             </div>
-          </section> 
+          </section>
 
           {/* Project Section */}
           <section
@@ -1158,142 +1187,6 @@ const Navbar = () => {
                       <h3>
                         <a
                           className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                          href="https://lagosfoodbank.org/"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                          aria-label="InvoiceApp (opens in a new tab)"
-                        >
-                          <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                          <span>
-                            Lagos {" "}
-                            <span className="inline-block">
-                              Food Bank Initiative
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                                fill="currentColor"
-                                className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
-                                aria-hidden="true"
-                              >
-                                <path
-                                  fillRule="evenodd"
-                                  d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                                  clipRule="evenodd"
-                                ></path>
-                              </svg>
-                            </span>
-                          </span>
-                        </a>
-                      </h3>
-                      <p className="mt-2 text-sm leading-normal">
-                        Lagos Food Bank Initiative (LFBI) is a Nigerian nonprofit focused on fighting hunger, reducing food waste, and improving nutrition for vulnerable communities. Through programs like the Temporary Food Assistance Program (TEFAP) and the Food Bank Network Nigeria, LFBI distributes food, supports partner organizations, and engages volunteers to strengthen food security. The organization combines digital tools, community collaboration, and data-driven approaches to deliver efficient, scalable, and sustainable hunger relief across Lagos State and beyond.
-                      </p>
-                      <a
-                        className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
-                        href="https://github.com/ADEYEMI990/"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        aria-label="Direct to Github (opens in a new tab)"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          className="mr-1 h-4 w-4"
-                          aria-hidden="true"
-                        >
-                          <path d="M10.75 2.75a.75.75 0 00-1.5 0v8.614L6.295 8.235a.75.75 0 10-1.09 1.03l4.25 4.5a.75.75 0 001.09 0l4.25-4.5a.75.75 0 00-1.09-1.03l-2.955 3.129V2.75z"></path>
-                          <path d="M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z"></path>
-                        </svg>
-                        <span>Check out</span>
-                      </a>
-                      <ul
-                        className="mt-2 flex flex-wrap"
-                        aria-label="Technologies used:"
-                      >
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            React
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            TypeScript
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            Talwind CSS
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            MySQL
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            CICD
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            WebSocket
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            AWS
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            Prisma
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            Node.js
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            Express.js
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            FireBase
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            Docker
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                    <img
-                      alt="LFBI HomePage"
-                      loading="lazy"
-                      width="200"
-                      height="48"
-                      decoding="async"
-                      data-nimg="1"
-                      className="aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-                      // style="color:transparent"
-                      // srcSet="/_next/image?url=%2Fimages%2Fprojects%2Fhalcyon.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fprojects%2Fhalcyon.png&amp;w=640&amp;q=75 2x"
-                      src={assets.LFBI}
-                    />
-                  </div>
-                </li>
-                <li className="mb-12">
-                  <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                    <div className="z-10 sm:order-2 sm:col-span-6">
-                      <h3>
-                        <a
-                          className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
                           href="https://pospadi.com.ng/"
                           target="_blank"
                           rel="noreferrer noopener"
@@ -1301,7 +1194,7 @@ const Navbar = () => {
                         >
                           <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                           <span>
-                            POS {" "}
+                            POS{" "}
                             <span className="inline-block">
                               PADI
                               <svg
@@ -1322,7 +1215,10 @@ const Navbar = () => {
                         </a>
                       </h3>
                       <p className="mt-2 text-sm leading-normal">
-                        POS PADI is a mobile and web-based platform designed to revolutionize how POS agents operate across Nigeria and other African Countries. It is built to improve efficiency, security, and trust in the POS ecosystem.
+                        POS PADI is a mobile and web-based platform designed to
+                        revolutionize how POS agents operate across Nigeria and
+                        other African Countries. It is built to improve
+                        efficiency, security, and trust in the POS ecosystem.
                       </p>
                       <a
                         className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
@@ -1423,6 +1319,271 @@ const Navbar = () => {
                     />
                   </div>
                 </li>
+                <li className="mb-12">
+                  <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                    <div className="z-10 sm:order-2 sm:col-span-6">
+                      <h3>
+                        <a
+                          className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                          href="https://www.adeyemi.store/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          aria-label="InvoiceApp (opens in a new tab)"
+                        >
+                          <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                          <span>
+                            My{" "}
+                            <span className="inline-block">
+                              Portfolio
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                                className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                aria-hidden="true"
+                              >
+                                <path
+                                  fillRule="evenodd"
+                                  d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                  clipRule="evenodd"
+                                ></path>
+                              </svg>
+                            </span>
+                          </span>
+                        </a>
+                      </h3>
+                      <p className="mt-2 text-sm leading-normal">
+                        This portfolio showcases my work as a Fullstack & Mobile
+                        App Developer, highlighting a collection of real-world
+                        projects that demonstrate my ability to design, develop,
+                        and deploy end-to-end solutions. From responsive web
+                        applications to mobile-first interfaces, each project
+                        reflects my focus on clean code, performance, and user
+                        experience. The site also outlines the tools and
+                        technologies I work with including React, Node.js, and
+                        React Native—while providing insight into my development
+                        process and problem-solving approach. Whether you are
+                        exploring my technical skills or looking to collaborate,
+                        this portfolio offers a clear picture of the value I
+                        bring as a developer.
+                      </p>
+                      <a
+                        className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+                        href="https://github.com/ADEYEMI990/MyPortfolio"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        aria-label="Direct to Github (opens in a new tab)"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          className="mr-1 h-4 w-4"
+                          aria-hidden="true"
+                        >
+                          <path d="M10.75 2.75a.75.75 0 00-1.5 0v8.614L6.295 8.235a.75.75 0 10-1.09 1.03l4.25 4.5a.75.75 0 001.09 0l4.25-4.5a.75.75 0 00-1.09-1.03l-2.955 3.129V2.75z"></path>
+                          <path d="M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z"></path>
+                        </svg>
+                        <span>Check out</span>
+                      </a>
+                      <ul
+                        className="mt-2 flex flex-wrap"
+                        aria-label="Technologies used:"
+                      >
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            React.js
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            TypeScript
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            JavaScript
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Talwind CSS
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Vercel
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Figma
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <img
+                      alt="InvoiceApp HomePage"
+                      loading="lazy"
+                      width="200"
+                      height="48"
+                      decoding="async"
+                      data-nimg="1"
+                      className="aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                      // style="color:transparent"
+                      // srcSet="/_next/image?url=%2Fimages%2Fprojects%2Fhalcyon.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fprojects%2Fhalcyon.png&amp;w=640&amp;q=75 2x"
+                      src={assets.POR}
+                    />
+                  </div>
+                </li>
+                <li className="mb-12">
+                  <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                    <div className="z-10 sm:order-2 sm:col-span-6">
+                      <h3>
+                        <a
+                          className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                          href="https://lagosfoodbank.org/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          aria-label="InvoiceApp (opens in a new tab)"
+                        >
+                          <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                          <span>
+                            Lagos{" "}
+                            <span className="inline-block">
+                              Food Bank Initiative
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                                className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                aria-hidden="true"
+                              >
+                                <path
+                                  fillRule="evenodd"
+                                  d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                  clipRule="evenodd"
+                                ></path>
+                              </svg>
+                            </span>
+                          </span>
+                        </a>
+                      </h3>
+                      <p className="mt-2 text-sm leading-normal">
+                        Lagos Food Bank Initiative (LFBI) is a Nigerian
+                        nonprofit focused on fighting hunger, reducing food
+                        waste, and improving nutrition for vulnerable
+                        communities. Through programs like the Temporary Food
+                        Assistance Program (TEFAP) and the Food Bank Network
+                        Nigeria, LFBI distributes food, supports partner
+                        organizations, and engages volunteers to strengthen food
+                        security. The organization combines digital tools,
+                        community collaboration, and data-driven approaches to
+                        deliver efficient, scalable, and sustainable hunger
+                        relief across Lagos State and beyond.
+                      </p>
+                      <a
+                        className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+                        href="https://github.com/ADEYEMI990/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        aria-label="Direct to Github (opens in a new tab)"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          className="mr-1 h-4 w-4"
+                          aria-hidden="true"
+                        >
+                          <path d="M10.75 2.75a.75.75 0 00-1.5 0v8.614L6.295 8.235a.75.75 0 10-1.09 1.03l4.25 4.5a.75.75 0 001.09 0l4.25-4.5a.75.75 0 00-1.09-1.03l-2.955 3.129V2.75z"></path>
+                          <path d="M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z"></path>
+                        </svg>
+                        <span>Check out</span>
+                      </a>
+                      <ul
+                        className="mt-2 flex flex-wrap"
+                        aria-label="Technologies used:"
+                      >
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            React
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            TypeScript
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Talwind CSS
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            MySQL
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            CICD
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            WebSocket
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            AWS
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Prisma
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Node.js
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Express.js
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            FireBase
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Docker
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <img
+                      alt="LFBI HomePage"
+                      loading="lazy"
+                      width="200"
+                      height="48"
+                      decoding="async"
+                      data-nimg="1"
+                      className="aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                      // style="color:transparent"
+                      // srcSet="/_next/image?url=%2Fimages%2Fprojects%2Fhalcyon.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fprojects%2Fhalcyon.png&amp;w=640&amp;q=75 2x"
+                      src={assets.LFBI}
+                    />
+                  </div>
+                </li>
+
                 <li className="mb-12">
                   <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                     <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
@@ -1540,112 +1701,7 @@ const Navbar = () => {
                     />
                   </div>
                 </li>
-                <li className="mb-12">
-                  <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                    <div className="z-10 sm:order-2 sm:col-span-6">
-                      <h3>
-                        <a
-                          className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                          href="https://www.adeyemi.store/"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                          aria-label="InvoiceApp (opens in a new tab)"
-                        >
-                          <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                          <span>
-                            My{" "}
-                            <span className="inline-block">
-                              Portfolio
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                                fill="currentColor"
-                                className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
-                                aria-hidden="true"
-                              >
-                                <path
-                                  fillRule="evenodd"
-                                  d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                                  clipRule="evenodd"
-                                ></path>
-                              </svg>
-                            </span>
-                          </span>
-                        </a>
-                      </h3>
-                      <p className="mt-2 text-sm leading-normal">
-                        This portfolio showcases my work as a Fullstack & Mobile App Developer, highlighting a collection of real-world projects that demonstrate my ability to design, develop, and deploy end-to-end solutions. From responsive web applications to mobile-first interfaces, each project reflects my focus on clean code, performance, and user experience. The site also outlines the tools and technologies I work with including React, Node.js, and React Native—while providing insight into my development process and problem-solving approach. Whether you are exploring my technical skills or looking to collaborate, this portfolio offers a clear picture of the value I bring as a developer.
-                      </p>
-                      <a
-                        className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
-                        href="https://github.com/ADEYEMI990/MyPortfolio"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        aria-label="Direct to Github (opens in a new tab)"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          className="mr-1 h-4 w-4"
-                          aria-hidden="true"
-                        >
-                          <path d="M10.75 2.75a.75.75 0 00-1.5 0v8.614L6.295 8.235a.75.75 0 10-1.09 1.03l4.25 4.5a.75.75 0 001.09 0l4.25-4.5a.75.75 0 00-1.09-1.03l-2.955 3.129V2.75z"></path>
-                          <path d="M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z"></path>
-                        </svg>
-                        <span>Check out</span>
-                      </a>
-                      <ul
-                        className="mt-2 flex flex-wrap"
-                        aria-label="Technologies used:"
-                      >
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            React.js
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            TypeScript
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            JavaScript
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            Talwind CSS
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            Vercel
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            Figma
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                    <img
-                      alt="InvoiceApp HomePage"
-                      loading="lazy"
-                      width="200"
-                      height="48"
-                      decoding="async"
-                      data-nimg="1"
-                      className="aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-                      // style="color:transparent"
-                      // srcSet="/_next/image?url=%2Fimages%2Fprojects%2Fhalcyon.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fprojects%2Fhalcyon.png&amp;w=640&amp;q=75 2x"
-                      src={assets.POR}
-                    />
-                  </div>
-                </li>
+
                 <li className="mb-12">
                   <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                     <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
