@@ -6,6 +6,7 @@ import InvoiceApp from './InvoiceApp.jpeg'
 import Admin from './Admin.jpeg'
 import POS01 from './POS01.png'
 import POR from './POR.png'
+import LFBI from './LFBI.png'
 
 export const assets = {
   Image,
@@ -15,5 +16,6 @@ export const assets = {
   InvoiceApp,
   Admin,
   POS01,
-  POR
+  POR,
+  LFBI
 }
