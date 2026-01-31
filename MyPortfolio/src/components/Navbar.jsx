@@ -1738,13 +1738,13 @@ const Navbar = () => {
                       </h3>
                       <p className="mt-2 text-sm leading-normal">
                         MyNeeds is a comprehensive Fullstack Ecommerce platform
-                        designed to provide an all-in-one shopping experience.
+                        designed to provide an all in one shopping experience.
                         Built with modern web technologies, it allows users to
                         seamlessly browse, purchase, and manage their orders in
                         a user-friendly environment. The project incorporates
                         both frontend and backend development, ensuring a smooth
                         and efficient interface while supporting secure
-                        transactions, real-time inventory management, and
+                        transactions, real time inventory management, and
                         personalized recommendations
                       </p>
                       <a
