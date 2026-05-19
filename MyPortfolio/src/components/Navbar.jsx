@@ -250,7 +250,7 @@ const Navbar = () => {
                 performance and ease of use.
               </p>
               <p className="mb-4">
-                As a seasoned Fullstack & Mobile App Developer, I specialize in
+                As a seasoned senior Fullstack & Mobile App Developer, I specialize in
                 building robust, scalable, and user friendly applications across
                 web and mobile platforms. With a strong foundation in both
                 frontend and backend technologies, I’ve led and contributed to a
@@ -262,61 +262,6 @@ const Navbar = () => {
                 user experience in mind. Below are some of the projects that
                 highlight my technical versatility and product focused approach.
               </p>
-              {/* <p className="mb-4">
-                In the past, I've had the opportunity to develop software across
-                a variety of settings — from{" "}
-                <a
-                  className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-                  href="https://us.mullenlowe.com/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  aria-label="advertising agency (opens in a new tab)"
-                >
-                  advertising agencies
-                </a>{" "}
-                and{" "}
-                <a
-                  className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-                  href="https://www.apple.com/apple-music/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  aria-label="huge corporation (opens in a new tab)"
-                >
-                  large corporations
-                </a>{" "}
-                to{" "}
-                <a
-                  className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-                  href="https://starry.com/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  aria-label="start-up (opens in a new tab)"
-                >
-                  start-ups
-                </a>{" "}
-                and{" "}
-                <a
-                  className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-                  href="https://upstatement.com/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  aria-label="digital product studio (opens in a new tab)"
-                >
-                  small digital product studios
-                </a>
-                . Additionally, I also released a{" "}
-                <a
-                  className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-                  href="https://www.newline.co/courses/build-a-spotify-connected-app"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  aria-label="online video course (opens in a new tab)"
-                >
-                  comprehensive video course
-                </a>{" "}
-                a few years ago, guiding learners through building a web app
-                with the Spotify API.
-              </p> */}
               <p>
                 In my spare time, I usually play soccer, Table Tennis, Traveling
                 and exploring, Hanging out with my friends and family, or in the
@@ -462,6 +407,163 @@ const Navbar = () => {
             </div>
             <div>
               <ol className="group/list">
+                <li className="mb-12">
+                  <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                    <header
+                      className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
+                      aria-label="2024 to Present"
+                    >
+                      2026 — Present (Contract)
+                    </header>
+                    <div className="z-10 sm:col-span-6">
+                      <h3 className="font-medium leading-snug text-slate-200">
+                        <div>
+                          <a
+                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                            href="https://Awureads.net/"
+                            target="_blank"
+                            rel="noreferrer noopener"
+                            aria-label="Senior Fullstack Engineer, Lagoss food Bank Initiative (opens in a new tab)"
+                          >
+                            <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                            <span>
+                              Senior Fullstack Engineer,{" "}
+                              <span className="inline-block">
+                                AWUREADS
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 20 20"
+                                  fill="currentColor"
+                                  className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                  aria-hidden="true"
+                                >
+                                  <path
+                                    fillRule="evenodd"
+                                    d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                    clipRule="evenodd"
+                                  ></path>
+                                </svg>
+                              </span>
+                            </span>
+                          </a>
+                        </div>
+                      </h3>
+                      <p className="mt-2 text-sm leading-normal">
+                        I spearheaded the end-to-end development of an enterprise-grade, 
+                        AI-powered ad management platform unifying Google Ads, LinkedIn Ads, TikTok Ads, and Meta Ads into a centralized dashboard, 
+                        architecting a scalable full-stack system with React, TypeScript, and Node.js/Express.js; 
+                        implementing secure JWT authentication, RBAC, multi-tenant SaaS architecture, and PostgreSQL with Prisma ORM for optimized data modeling; 
+                        integrating Stripe Connect for subscription billing and OAuth 2.0 for ad platform authentication; 
+                        engineering background job processing with BullMQ and Redis for metric aggregation and synchronization; 
+                        managing cloud deployment on AWS EC2/RDS with NGINX, PM2, and SSL/TLS; 
+                        and delivering core features such as multi-platform ad account management, 
+                        real-time analytics dashboards, role-based access control, audit logging, 
+                        and automated campaign synchronization.
+                      </p>
+                      <ul
+                        className="mt-2 flex flex-wrap"
+                        aria-label="Technologies used"
+                      >
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            JavaScript
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            TypeScript
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            React
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            TailwindCSS
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            HTML5
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            PostgreSQL
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            RestfulAPI
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            CICD Pipeline
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Docker
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            AWS
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            BullMQ
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            OAUTH 2.0
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Redis
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            GraphQL
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            PM2
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            NGINX
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            SSL/TLS
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Prisma
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            JWT
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
                 <li className="mb-12">
                   <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                     <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
@@ -718,422 +820,6 @@ const Navbar = () => {
                     </div>
                   </div>
                 </li>
-                {/* <li className="mb-12">
-                  <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                    <header
-                      className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
-                      aria-label="July to December 2017"
-                    >
-                      July — Dec 2017
-                    </header>
-                    <div className="z-10 sm:col-span-6">
-                      <h3 className="font-medium leading-snug text-slate-200">
-                        <div>
-                          <a
-                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                            href="https://www.apple.com/apple-music/"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            aria-label="UI Engineer Co-op at Apple (opens in a new tab)"
-                          >
-                            <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                            <span>
-                              UI Engineer Co-op.{" "}
-                              <span className="inline-block">
-                                Apple
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 20 20"
-                                  fill="currentColor"
-                                  className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
-                                  aria-hidden="true"
-                                >
-                                  <path
-                                    fillRule="evenodd"
-                                    d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                                    clipRule="evenodd"
-                                  ></path>
-                                </svg>
-                              </span>
-                            </span>
-                          </a>
-                        </div>
-                      </h3>
-                      <p className="mt-2 text-sm leading-normal">
-                        Developed and styled interactive web apps for Apple
-                        Music, including the user interface of Apple Music’s
-                        embeddable web player widget for in-browser user
-                        authorization and full song playback.
-                      </p>
-                      <ul
-                        className="mt-2 flex flex-wrap"
-                        aria-label="Related links"
-                      >
-                        <li className="mr-4">
-                          <a
-                            className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
-                            href="https://developer.apple.com/documentation/musickitjs"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            aria-label="MusicKit.js (opens in a new tab)"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                              fill="currentColor"
-                              className="mr-1 h-3 w-3"
-                              aria-hidden="true"
-                            >
-                              <path d="M12.232 4.232a2.5 2.5 0 013.536 3.536l-1.225 1.224a.75.75 0 001.061 1.06l1.224-1.224a4 4 0 00-5.656-5.656l-3 3a4 4 0 00.225 5.865.75.75 0 00.977-1.138 2.5 2.5 0 01-.142-3.667l3-3z"></path>
-                              <path d="M11.603 7.963a.75.75 0 00-.977 1.138 2.5 2.5 0 01.142 3.667l-3 3a2.5 2.5 0 01-3.536-3.536l1.225-1.224a.75.75 0 00-1.061-1.06l-1.224 1.224a4 4 0 105.656 5.656l3-3a4 4 0 00-.225-5.865z"></path>
-                            </svg>
-                            <span>MusicKit.js</span>
-                          </a>
-                        </li>
-                        <li className="mr-4">
-                          <a
-                            className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
-                            href="https://9to5mac.com/2018/06/03/apple-music-embeddable-web-player-listen-browser/"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            aria-label="9to5Mac (opens in a new tab)"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                              fill="currentColor"
-                              className="mr-1 h-3 w-3"
-                              aria-hidden="true"
-                            >
-                              <path d="M12.232 4.232a2.5 2.5 0 013.536 3.536l-1.225 1.224a.75.75 0 001.061 1.06l1.224-1.224a4 4 0 00-5.656-5.656l-3 3a4 4 0 00.225 5.865.75.75 0 00.977-1.138 2.5 2.5 0 01-.142-3.667l3-3z"></path>
-                              <path d="M11.603 7.963a.75.75 0 00-.977 1.138 2.5 2.5 0 01.142 3.667l-3 3a2.5 2.5 0 01-3.536-3.536l1.225-1.224a.75.75 0 00-1.061-1.06l-1.224 1.224a4 4 0 105.656 5.656l3-3a4 4 0 00-.225-5.865z"></path>
-                            </svg>
-                            <span>9to5Mac</span>
-                          </a>
-                        </li>
-                        <li className="mr-4">
-                          <a
-                            className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
-                            href="https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            aria-label="The Verge (opens in a new tab)"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                              fill="currentColor"
-                              className="mr-1 h-3 w-3"
-                              aria-hidden="true"
-                            >
-                              <path d="M12.232 4.232a2.5 2.5 0 013.536 3.536l-1.225 1.224a.75.75 0 001.061 1.06l1.224-1.224a4 4 0 00-5.656-5.656l-3 3a4 4 0 00.225 5.865.75.75 0 00.977-1.138 2.5 2.5 0 01-.142-3.667l3-3z"></path>
-                              <path d="M11.603 7.963a.75.75 0 00-.977 1.138 2.5 2.5 0 01.142 3.667l-3 3a2.5 2.5 0 01-3.536-3.536l1.225-1.224a.75.75 0 00-1.061-1.06l-1.224 1.224a4 4 0 105.656 5.656l3-3a4 4 0 00-.225-5.865z"></path>
-                            </svg>
-                            <span>The Verge</span>
-                          </a>
-                        </li>
-                      </ul>
-                      <ul
-                        className="mt-2 flex flex-wrap"
-                        aria-label="Technologies used"
-                      >
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            Ember
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            SCSS
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            JavaScript
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            MusicKit.js
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li className="mb-12">
-                  <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                    <header
-                      className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
-                      aria-label="2016 to 2017"
-                    >
-                      2016 — 2017
-                    </header>
-                    <div className="z-10 sm:col-span-6">
-                      <h3 className="font-medium leading-snug text-slate-200">
-                        <div>
-                          <a
-                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                            href="https://scout.camd.northeastern.edu/"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            aria-label="Developer at Scout Studio (opens in a new tab)"
-                          >
-                            <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                            <span>
-                              Developer · Scout{" "}
-                              <span className="inline-block">
-                                Studio
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 20 20"
-                                  fill="currentColor"
-                                  className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
-                                  aria-hidden="true"
-                                >
-                                  <path
-                                    fillRule="evenodd"
-                                    d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                                    clipRule="evenodd"
-                                  ></path>
-                                </svg>
-                              </span>
-                            </span>
-                          </a>
-                        </div>
-                      </h3>
-                      <p className="mt-2 text-sm leading-normal">
-                        Collaborated with other student designers and engineers
-                        on pro-bono projects to create new brands, design
-                        systems, and websites for organizations in the
-                        community.
-                      </p>
-                      <ul
-                        className="mt-2 flex flex-wrap"
-                        aria-label="Technologies used"
-                      >
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            Jekyll
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            SCSS
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            JavaScript
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            WordPress
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li className="mb-12">
-                  <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                    <header
-                      className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
-                      aria-label="July to December 2016"
-                    >
-                      July — Dec 2016
-                    </header>
-                    <div className="z-10 sm:col-span-6">
-                      <h3 className="font-medium leading-snug text-slate-200">
-                        <div>
-                          <a
-                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                            href="https://starry.com/"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            aria-label="Software Engineer Co-op at Starry (opens in a new tab)"
-                          >
-                            <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                            <span>
-                              Software Engineer Co-op.{" "}
-                              <span className="inline-block">
-                                Starry
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 20 20"
-                                  fill="currentColor"
-                                  className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
-                                  aria-hidden="true"
-                                >
-                                  <path
-                                    fillRule="evenodd"
-                                    d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                                    clipRule="evenodd"
-                                  ></path>
-                                </svg>
-                              </span>
-                            </span>
-                          </a>
-                        </div>
-                      </h3>
-                      <p className="mt-2 text-sm leading-normal">
-                        Worked with the UI team to engineer and improve major
-                        features of Starry’s customer-facing Android app.
-                      </p>
-                      <ul
-                        className="mt-2 flex flex-wrap"
-                        aria-label="Related links"
-                      >
-                        <li className="mr-4">
-                          <a
-                            className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
-                            href="https://play.google.com/store/apps/details?id=com.starry.management&amp;hl=en_US&amp;gl=US"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            aria-label="Android App (opens in a new tab)"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                              fill="currentColor"
-                              className="mr-1 h-3 w-3"
-                              aria-hidden="true"
-                            >
-                              <path d="M12.232 4.232a2.5 2.5 0 013.536 3.536l-1.225 1.224a.75.75 0 001.061 1.06l1.224-1.224a4 4 0 00-5.656-5.656l-3 3a4 4 0 00.225 5.865.75.75 0 00.977-1.138 2.5 2.5 0 01-.142-3.667l3-3z"></path>
-                              <path d="M11.603 7.963a.75.75 0 00-.977 1.138 2.5 2.5 0 01.142 3.667l-3 3a2.5 2.5 0 01-3.536-3.536l1.225-1.224a.75.75 0 00-1.061-1.06l-1.224 1.224a4 4 0 105.656 5.656l3-3a4 4 0 00-.225-5.865z"></path>
-                            </svg>
-                            <span>Android App</span>
-                          </a>
-                        </li>
-                        <li className="mr-4">
-                          <a
-                            className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
-                            href="https://starry.com/blog/product/whats-new-screentime-just-got-better-for-parents"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            aria-label="ScreenTime 2.0 (opens in a new tab)"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                              fill="currentColor"
-                              className="mr-1 h-3 w-3"
-                              aria-hidden="true"
-                            >
-                              <path d="M12.232 4.232a2.5 2.5 0 013.536 3.536l-1.225 1.224a.75.75 0 001.061 1.06l1.224-1.224a4 4 0 00-5.656-5.656l-3 3a4 4 0 00.225 5.865.75.75 0 00.977-1.138 2.5 2.5 0 01-.142-3.667l3-3z"></path>
-                              <path d="M11.603 7.963a.75.75 0 00-.977 1.138 2.5 2.5 0 01.142 3.667l-3 3a2.5 2.5 0 01-3.536-3.536l1.225-1.224a.75.75 0 00-1.061-1.06l-1.224 1.224a4 4 0 105.656 5.656l3-3a4 4 0 00-.225-5.865z"></path>
-                            </svg>
-                            <span>ScreenTime 2.0</span>
-                          </a>
-                        </li>
-                      </ul>
-                      <ul
-                        className="mt-2 flex flex-wrap"
-                        aria-label="Technologies used"
-                      >
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            Cordova
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            Backbone
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            JavaScript
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            CSS
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li className="mb-12">
-                  <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                    <header
-                      className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
-                      aria-label="July to December 2015"
-                    >
-                      July — Dec 2015
-                    </header>
-                    <div className="z-10 sm:col-span-6">
-                      <h3 className="font-medium leading-snug text-slate-200">
-                        <div>
-                          <a
-                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                            href="https://us.mullenlowe.com/"
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            aria-label="Creative Technologist Co-op at MullenLowe U.S. (opens in a new tab)"
-                          >
-                            <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                            <span>
-                              Creative Technologist Co-op · MullenLowe{" "}
-                              <span className="inline-block">
-                                U.S.
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 20 20"
-                                  fill="currentColor"
-                                  className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
-                                  aria-hidden="true"
-                                >
-                                  <path
-                                    fillRule="evenodd"
-                                    d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                                    clipRule="evenodd"
-                                  ></path>
-                                </svg>
-                              </span>
-                            </span>
-                          </a>
-                        </div>
-                      </h3>
-                      <p className="mt-2 text-sm leading-normal">
-                        Developed, maintained, and shipped production code for
-                        client websites. Clients included JetBlue, Lovesac, U.S.
-                        Cellular, U.S. Department of Defense, and more.
-                      </p>
-                      <ul
-                        className="mt-2 flex flex-wrap"
-                        aria-label="Technologies used"
-                      >
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            HTML
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            CSS
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            JavaScript
-                          </div>
-                        </li>
-                        <li className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                            jQuery
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </li> */}
               </ol>
               <div className="mt-12">
                 <a
@@ -1187,10 +873,188 @@ const Navbar = () => {
                       <h3>
                         <a
                           className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                          href="https://Awureads.net/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          aria-label="Awureads (opens in a new tab)"
+                        >
+                          <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                          <span>
+                            Awure{" "}
+                            <span className="inline-block">
+                              Ads
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                                className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                aria-hidden="true"
+                              >
+                                <path
+                                  fillRule="evenodd"
+                                  d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                  clipRule="evenodd"
+                                ></path>
+                              </svg>
+                            </span>
+                          </span>
+                        </a>
+                      </h3>
+                      <p className="mt-2 text-sm leading-normal">
+                        Awureads is an AI-powered ad management platform designed to help agencies and individual advertisers manage, 
+                        monitor, and optimize advertising campaigns across multiple platforms from a single, 
+                        unified dashboard.
+                      </p>
+                      <a
+                        className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+                        href="https://github.com/AwureAds/awureads"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        aria-label="Direct to Github (opens in a new tab)"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          className="mr-1 h-4 w-4"
+                          aria-hidden="true"
+                        >
+                          <path d="M10.75 2.75a.75.75 0 00-1.5 0v8.614L6.295 8.235a.75.75 0 10-1.09 1.03l4.25 4.5a.75.75 0 001.09 0l4.25-4.5a.75.75 0 00-1.09-1.03l-2.955 3.129V2.75z"></path>
+                          <path d="M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z"></path>
+                        </svg>
+                        <span>Check out</span>
+                      </a>
+                      <ul
+                        className="mt-2 flex flex-wrap"
+                        aria-label="Technologies used:"
+                      >
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            React
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            TypeScript
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Talwind CSS
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            PostgreSQL
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Clerk
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            WebSocket
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Stripe
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Prisma
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Node.js
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Express.js
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            FireBase
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Docker
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            BullMq
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            AWS
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Ubuntu
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            NGINX
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            PM2
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            Oauth 2.0
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            SSL/TLS
+                          </div>
+                        </li>
+                        <li className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                            JWT
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <img
+                      alt="Awureads HomePage"
+                      loading="lazy"
+                      width="200"
+                      height="48"
+                      decoding="async"
+                      data-nimg="1"
+                      className="aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                      // style="color:transparent"
+                      // srcSet="/_next/image?url=%2Fimages%2Fprojects%2Fhalcyon.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fprojects%2Fhalcyon.png&amp;w=640&amp;q=75 2x"
+                      src={assets.Awureadsimg}
+                    />
+                  </div>
+                </li>
+                <li className="mb-12">
+                  <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                    <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                    <div className="z-10 sm:order-2 sm:col-span-6">
+                      <h3>
+                        <a
+                          className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
                           href="https://pospadi.com.ng/"
                           target="_blank"
                           rel="noreferrer noopener"
-                          aria-label="InvoiceApp (opens in a new tab)"
+                          aria-label="Pospadi (opens in a new tab)"
                         >
                           <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                           <span>
@@ -1329,7 +1193,7 @@ const Navbar = () => {
                           href="https://www.adeyemi.store/"
                           target="_blank"
                           rel="noreferrer noopener"
-                          aria-label="InvoiceApp (opens in a new tab)"
+                          aria-label="portfolio (opens in a new tab)"
                         >
                           <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                           <span>
@@ -1447,7 +1311,7 @@ const Navbar = () => {
                           href="https://lagosfoodbank.org/"
                           target="_blank"
                           rel="noreferrer noopener"
-                          aria-label="InvoiceApp (opens in a new tab)"
+                          aria-label="Lagosfoodbank (opens in a new tab)"
                         >
                           <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                           <span>

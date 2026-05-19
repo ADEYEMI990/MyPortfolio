@@ -7,6 +7,7 @@ import Admin from './Admin.jpeg'
 import POS01 from './POS01.png'
 import POR from './POR.png'
 import LFBI from './LFBI.png'
+import Awureadsimg from './Awureadsimg.png'
 
 export const assets = {
   Image,
@@ -17,5 +18,6 @@ export const assets = {
   Admin,
   POS01,
   POR,
-  LFBI
+  LFBI,
+  Awureadsimg
 }
